@@ -1,3 +1,4 @@
+# This code is based on the official langchain documentation: https://python.langchain.com/docs/use_cases/question_answering/quickstart
 import bs4
 from langchain import hub
 from langchain.text_splitter import RecursiveCharacterTextSplitter
