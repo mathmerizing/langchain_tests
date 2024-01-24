@@ -41,3 +41,27 @@ Question: `What is the formula for the matrix A_{l-1}?`
 Answer:   `The formula for the matrix \(A_{l-1}\) is \(A_{l-1} = I^{l}_{l-1} A_l I^{l-1}_l\).`
 
 ---------------------------------
+
+## Step 2: Retrieval Augmented Generation for PDF document
+
+GOAL: Parse the information on BPX and HB multielevel preconditioners from the PDF https://raw.githubusercontent.com/mathmerizing/MultigridPython/master/BPX%26HB%20Ausarbeitung.pdf and answer some questions with OpenAI's LLMs (or other open-source models).
+
+### Results
+
+Question: `What does HB stand for?`
+
+Answer:   `HB stands for Hierarchical Basis.`
+
+--------------------------------
+
+Question: `What does BPX stand for?`
+
+Answer:   `BPX stands for Bramble/Pasciak/Xu.`
+
+--------------------------------
+
+Question: `What is multigrid?`
+
+Answer:   `Multigrid is a method used in the mechanical analysis of heterogeneous solids and for solving linear systems. It involves using a hierarchy of grids, with each grid representing a different level of detail. The method aims to solve the linear system efficiently by using a good preconditioner to reduce the number of iteration steps needed.`
+
+--------------------------------
